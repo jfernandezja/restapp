@@ -1,0 +1,122 @@
+{
+	"ImportPath": "github.com/jfernandezja/restapp",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/flynn/flynn/discoverd/client",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/discoverd/types",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/attempt",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/cors",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/ctxhelper",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/dialer",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/httpclient",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/httphelper",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/postgres",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/random",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/shutdown",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/sirenia/state",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/sirenia/xlog",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/sse",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/flynn/flynn/pkg/stream",
+			"Comment": "v20170717.0",
+			"Rev": "86f037be17854c6244640b77443d1b92a443b281"
+		},
+		{
+			"ImportPath": "github.com/jackc/pgx",
+			"Comment": "v2.9.0-15-g42000c1",
+			"Rev": "42000c1220259d67cad4830d33f259f55ac01693"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Rev": "8c199fb6259ffc1af525cc3ad52ee60ba8359669"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "043ae16291351db8465272edf465c9f388161627"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "054b33e6527139ad5b1ec2f6232c3b175bd9a30c"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b699b7032584f0953262cb2788a0ca19bb494703"
+		},
+		{
+			"ImportPath": "gopkg.in/inconshreveable/log15.v2",
+			"Comment": "v2.7",
+			"Rev": "7cf5571b3b32a7c7b5605dc5ed8ad8fdbb2135f0"
+		},
+		{
+			"ImportPath": "gopkg.in/inconshreveable/log15.v2/stack",
+			"Comment": "v2.7",
+			"Rev": "7cf5571b3b32a7c7b5605dc5ed8ad8fdbb2135f0"
+		},
+		{
+			"ImportPath": "gopkg.in/inconshreveable/log15.v2/term",
+			"Comment": "v2.7",
+			"Rev": "7cf5571b3b32a7c7b5605dc5ed8ad8fdbb2135f0"
+		}
+	]
+}
