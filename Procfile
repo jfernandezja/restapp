@@ -1,1 +1,1 @@
-web: gorestapp
+web: restapp
