@@ -6,8 +6,6 @@ import (
 	"log"
 	"math"
 	"net/http"
-
-	"github.com/gorilla/mux"
 )
 
 type info struct {
@@ -33,8 +31,7 @@ func getInfo(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	router := mux.NewRouter().StrictSlash(true)
-	router.HandleFunc("/restapp/v2/info", getInfo)
+	http.HandleFunc("/restapp/v2/info", getInfo)
 	fmt.Println("Starting Rest APP on port 8080...")
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
